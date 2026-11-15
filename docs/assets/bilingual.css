@@ -1,0 +1,97 @@
+/* English by default: the Vietnamese side is hidden until requested. */
+.md-typeset .bi .vi,
+.md-typeset .vi-h {
+  display: none;
+}
+
+/* Translation mode (button): show the prepared Vietnamese under each block. */
+body.show-vi .md-typeset .bi:not(.bi-inline) .vi {
+  display: block;
+  margin: 0.15em 0 0.6em;
+  padding-left: 0.6rem;
+  border-left: 3px solid var(--md-accent-fg-color);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.92em;
+}
+
+body.show-vi .md-typeset .bi-inline .vi {
+  display: inline;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .bi-inline .vi::before {
+  content: " / ";
+}
+
+body.show-vi .md-typeset .vi-h {
+  display: inline;
+}
+body.show-vi .md-typeset .vi-h::after {
+  content: attr(data-vi);
+  display: block;
+  margin-top: 0.2em;
+  font-size: 0.62em;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Toggle button (placed in the header by bilingual.js). */
+.bi-toggle {
+  align-self: center;
+  margin-left: 0.4rem;
+  padding: 0.15rem 0.75rem;
+  border: 1px solid currentColor;
+  border-radius: 1rem;
+  background: transparent;
+  color: inherit;
+  font: 600 0.7rem/1.4 var(--md-text-font-family, sans-serif);
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.bi-toggle:hover {
+  opacity: 1;
+}
+.bi-toggle[aria-pressed="true"] {
+  background: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+  border-color: transparent;
+  opacity: 1;
+}
+.bi-toggle.bi-float {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 5;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* Popup shown when the reader selects text. */
+.bi-popup {
+  position: absolute;
+  z-index: 1000;
+  max-width: min(30rem, calc(100vw - 16px));
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.bi-popup-label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.bi-popup-item + .bi-popup-item {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}

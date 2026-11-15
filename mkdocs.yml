@@ -1,0 +1,67 @@
+site_name: VietNote15t12
+site_url: https://viet15t12.github.io/VietNote15t12/
+repo_url: https://github.com/viet15t12/VietNote15t12
+repo_name: viet15t12/VietNote15t12
+site_description: Study notes (LPIC, CCNA, AWS, PTIT) - English by default, with prepared Vietnamese translation where available
+
+theme:
+  name: material
+  language: en
+  logo: assets/img/logo.svg
+  favicon: assets/img/favicon.svg
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+hooks:
+  - hooks/bilingual.py
+
+extra_css:
+  - assets/bilingual.css
+
+extra_javascript:
+  - assets/bilingual.js
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+# Menu của web. Thêm file md mới vào docs/ rồi khai báo thêm một dòng ở đây.
+# (Mỗi thư mục môn có index.md làm trang đầu của tab.)
+nav:
+  - Home: index.md
+  - LPIC-1:
+      - lpic/index.md
+      - "101.1 Hardware settings": lpic/101-1-hardware.md
+  - CCNA:
+      - ccna/index.md
+  - AWS:
+      - aws/index.md
+  - PTIT:
+      - ptit/index.md
