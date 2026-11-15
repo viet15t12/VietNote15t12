@@ -241,6 +241,10 @@
 .vn-home > ul > li:nth-child(3) { --vn-card-color: #e8890c; }
 .vn-home > ul > li:nth-child(4) { --vn-card-color: #c62f3a; }
 
+/* Thẻ công cụ luyện thi trên trang chủ */
+.vn-tools > ul > li:nth-child(1) { --vn-card-color: #7b4fd6; }
+.vn-tools > ul > li:nth-child(2) { --vn-card-color: #0e8a7e; }
+
 /* Dòng mô tả ngắn dưới tiêu đề trang index */
 .md-typeset .vn-lead {
   font-size: 1.05em;

@@ -56,6 +56,28 @@ Ghi chú học tập theo từng chủ đề: Linux, mạng, điện toán đám
 
 </div>
 
+## Luyện thi
+
+<div class="grid cards vn-tools" markdown>
+
+-   :material-bank-outline:{ .lg .middle } **TurtleDeck Exam**
+
+    ---
+
+    Ngân hàng đề thi: câu hỏi trắc nghiệm theo từng chủ đề, dùng để ôn tập.
+
+    [:octicons-mark-github-16: viet15t12/TurtleDeck_exam](https://github.com/viet15t12/TurtleDeck_exam)
+
+-   :material-cards-outline:{ .lg .middle } **TurtleDeck**
+
+    ---
+
+    App luyện tập: làm đề, ôn lại câu sai, theo dõi tiến độ.
+
+    [:octicons-mark-github-16: viet15t12/TurtleDeck](https://github.com/viet15t12/TurtleDeck)
+
+</div>
+
 ## Cách đọc trang song ngữ
 
 !!! tip "Mặc định hiện tiếng Anh"

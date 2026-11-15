@@ -5,6 +5,9 @@
 !!! info "Cách học"
     Mỗi bài bám theo một mục trong *exam objectives*. Bấm **Dịch (VI)** để xem bản tiếng Việt.
 
+!!! tip "Luyện đề"
+    Ôn câu hỏi trong [ngân hàng đề thi TurtleDeck Exam](https://github.com/viet15t12/TurtleDeck_exam) và luyện tập bằng [app TurtleDeck](https://github.com/viet15t12/TurtleDeck).
+
 ## Exam 101
 
 <div class="grid cards vn-lpic" markdown>

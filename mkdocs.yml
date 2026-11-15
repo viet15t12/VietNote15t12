@@ -39,6 +39,18 @@ theme:
 hooks:
   - hooks/bilingual.py
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/viet15t12/VietNote15t12
+      name: VietNote15t12 (mã nguồn web)
+    - icon: material/bank-outline
+      link: https://github.com/viet15t12/TurtleDeck_exam
+      name: TurtleDeck Exam - ngân hàng đề thi
+    - icon: material/cards-outline
+      link: https://github.com/viet15t12/TurtleDeck
+      name: TurtleDeck - app luyện tập
+
 extra_css:
   - assets/theme.css
   - assets/bilingual.css
