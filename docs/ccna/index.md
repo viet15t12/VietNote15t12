@@ -16,3 +16,6 @@
 
 !!! note "Thêm bài"
     Tạo file trong `docs/ccna/`, thêm một thẻ vào danh sách trên và khai báo trong `nav` của `mkdocs.yml`.
+
+!!! tip "Luyện đề thi"
+    Ôn câu hỏi trắc nghiệm trong [ngân hàng đề thi TurtleDeck Exam](https://github.com/viet15t12/TurtleDeck_exam) và thực hành trên [app TurtleDeck](https://github.com/viet15t12/TurtleDeck).
