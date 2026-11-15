@@ -40,7 +40,8 @@ BOLD_WRAPPED = re.compile(r"\*\*(\$\\color[^$]*\$)\*\*")
 PAREN_PAIR = re.compile(r"\(([^()/]*?) / ([^()]*?)\)")
 # "EN: ..." line followed by "VI: ..." line (optionally as a list item)
 EN_VI = re.compile(
-    r"^([ \t]*(?:[-*+]|\d+\.)[ \t]+)?EN:[ \t]*(.+)\n[ \t]*VI:[ \t]*(.+)$", re.M
+    # group 1 = indentation (admonition / tab content) + optional list marker
+    r"^([ \t]*(?:(?:[-*+]|\d+\.)[ \t]+)?)EN:[ \t]*(.+)\n[ \t]*VI:[ \t]*(.+)$", re.M
 )
 
 VIET = re.compile(

@@ -1,11 +1,10 @@
 # Tên bài
 
-Trang một ngôn ngữ: không cần front matter `bilingual`, viết Markdown bình thường.
-Trang này không có nút Dịch.
+<p class="vn-lead">Một câu tóm tắt nội dung bài.</p>
 
 ## Phần 1
 
-Nội dung bình thường. Tiêu đề kiểu `TCP / UDP` ở trang này được giữ nguyên.
+Nội dung viết bình thường. Tiêu đề kiểu `TCP / UDP` ở trang này được giữ nguyên.
 
 - Mục một
 - Mục hai
@@ -17,3 +16,25 @@ Nội dung bình thường. Tiêu đề kiểu `TCP / UDP` ở trang này đư�
 ```shell
 $ ping -c 4 8.8.8.8
 ```
+
+!!! note "Ghi nhớ"
+    Ý quan trọng cần nhớ.
+
+## Phần 2
+
+=== "Linux"
+
+    ```shell
+    ip addr
+    ```
+
+=== "Windows"
+
+    ```powershell
+    ipconfig /all
+    ```
+
+??? question "Câu hỏi ôn tập"
+    Lệnh nào kiểm tra kết nối tới một máy khác?
+
+    **Đáp án:** `ping`

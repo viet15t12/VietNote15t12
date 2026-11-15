@@ -2,6 +2,8 @@
 
 Project này biến các file Markdown (`.md`) thành một trang web ghi chú. Trang nào có bản dịch thì mặc định hiện tiếng Anh; bấm nút **Dịch (VI)** hoặc bôi đen một đoạn để xem bản tiếng Việt do bạn viết sẵn. Trang không cần dịch thì viết Markdown bình thường.
 
+> Quy tắc viết file md (cấu trúc, song ngữ, code, khung ghi chú, checklist): xem [QUY_TAC_MD.md](QUY_TAC_MD.md).
+
 ## 1. Các file trong zip để làm gì
 
 ```
@@ -30,6 +32,7 @@ vdoc/  (repo VietNote15t12)
 |---|---|---|
 | `mkdocs.yml` | Tên web, giao diện, danh sách menu `nav` | Mỗi khi thêm hoặc bỏ một trang trong menu |
 | `hooks/bilingual.py` | Đọc file md song ngữ, tách EN và VI | Hầu như không cần sửa |
+| `docs/assets/theme.css` | Màu sắc, chữ, trang chủ (hero), thẻ chủ đề | Khi muốn đổi màu web |
 | `docs/assets/bilingual.css` | Giao diện bản dịch (màu, cỡ chữ, popup) | Khi muốn đổi màu hoặc kiểu hiển thị |
 | `docs/assets/bilingual.js` | Nút Dịch và popup khi bôi đen | Khi muốn đổi nhãn nút hoặc hành vi |
 | `docs/**/*.md` | Nội dung bài | Thường xuyên |
@@ -181,7 +184,8 @@ Gợi ý thực tế: dùng song ngữ cho tài liệu tiếng Anh hay có thu�
 | Muốn | Sửa ở đâu |
 |---|---|
 | Đổi tên web | `site_name` trong `mkdocs.yml` |
-| Đổi màu chủ đạo | `primary` và `accent` trong `mkdocs.yml` (indigo, teal, ...) |
+| Đổi màu chủ đạo | Biến `--md-primary-fg-color`, `--md-accent-fg-color` đầu file `docs/assets/theme.css` |
+| Đổi màu thẻ từng chủ đề | Các lớp `.vn-lpic`, `.vn-ccna`, ... trong `theme.css` |
 | Bỏ tab trên cùng, dùng menu bên trái | Xoá dòng `navigation.tabs` trong `mkdocs.yml` |
 | Đổi nhãn nút ("Dịch (VI)", "Ẩn bản dịch") | Tìm hai chuỗi đó trong `bilingual.js` |
 | Đổi màu, cỡ chữ của bản dịch | Khối `body.show-vi ...` trong `bilingual.css` |

@@ -11,6 +11,10 @@ theme:
   favicon: assets/img/favicon.svg
   features:
     - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - search.highlight
+    - search.suggest
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
@@ -19,15 +23,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -36,6 +40,7 @@ hooks:
   - hooks/bilingual.py
 
 extra_css:
+  - assets/theme.css
   - assets/bilingual.css
 
 extra_javascript:
@@ -51,6 +56,19 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - admonition
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # Menu của web. Thêm file md mới vào docs/ rồi khai báo thêm một dòng ở đây.
 # (Mỗi thư mục môn có index.md làm trang đầu của tab.)
