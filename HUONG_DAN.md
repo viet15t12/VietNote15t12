@@ -13,7 +13,8 @@ vdoc/  (repo VietNote15t12)
 ├── .github/workflows/deploy.yml  tự publish lên GitHub Pages
 ├── HUONG_DAN.md               file này (không đưa lên web)
 ├── hooks/
-│   └── bilingual.py           biến cặp EN/VI trong file md thành HTML khi build
+│   ├── bilingual.py           biến cặp EN/VI trong file md thành HTML khi build
+│   └── course_isolation.py   cô lập điều hướng từng môn (chỉ trang chủ mới chuyển môn)
 ├── docs/                      TOÀN BỘ nội dung web nằm ở đây
 │   ├── index.md               trang chủ
 │   ├── assets/
@@ -147,7 +148,7 @@ Nếu **cả web** không cần song ngữ, bạn chỉ cần không dùng `bili
 
 ## 5. Tổ chức cho nhiều loại tài liệu
 
-Mỗi chủ đề là một thư mục trong `docs/`, mỗi thư mục là một tab trên thanh trên cùng:
+Trang chủ `docs/index.md` là nơi điều hướng chính giữa các môn. Mỗi môn là một thư mục riêng trong `docs/`. Khi đang học một môn (ví dụ LPIC-1), hệ thống sẽ cô lập điều hướng: menu bên trái và footer chỉ hiển thị các bài của môn đó; muốn đổi môn thì bấm `← Trang chủ` hoặc logo trên cùng.
 
 ```
 docs/

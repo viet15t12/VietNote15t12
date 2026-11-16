@@ -241,6 +241,17 @@
 .vn-home > ul > li:nth-child(3) { --vn-card-color: #e8890c; }
 .vn-home > ul > li:nth-child(4) { --vn-card-color: #c62f3a; }
 
+/* Nút quay lại trang chủ ở đầu sidebar khi đang xem course */
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px dashed var(--md-default-fg-color--lightest);
+}
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child .md-nav__link {
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+
 /* Thẻ công cụ luyện thi trên trang chủ */
 .vn-tools > ul > li:nth-child(1) { --vn-card-color: #7b4fd6; }
 .vn-tools > ul > li:nth-child(2) { --vn-card-color: #0e8a7e; }

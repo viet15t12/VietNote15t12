@@ -15,7 +15,6 @@ theme:
     - navigation.footer
     - search.highlight
     - search.suggest
-    - navigation.tabs
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -38,6 +37,7 @@ theme:
 
 hooks:
   - hooks/bilingual.py
+  - hooks/course_isolation.py
 
 extra:
   social:
