@@ -303,8 +303,154 @@ $\color{#374151}{\footnotesize\text{Thiết bị lưu trữ là block device, đ
 
 | Device type / Loại thiết bị | Naming / Cách đặt tên |
 |---|---|
-| Legacy IDE disk / Đĩa IDE cũ | `/dev/hda`, `/dev/hdb` (first channel / kênh 1), `/dev/hdc`... (second channel / kênh 2); `/dev/hda1`, ... |
+| Legacy IDE disk / Đĩa IDE cũ | `/dev/hda`, `/dev/hdb` (first channel / kênh 1), `/dev/hdc`, `/dev/hdd` (second channel / kênh 2); `/dev/hda1`, ... |
 | Floppy / Đĩa mềm | `/dev/fd0`, `/dev/fd1` |
 | SATA / SCSI / SSD / USB (kernel 2.4+) | `/dev/sda`, `/dev/sdb`, ...; `/dev/sda1`, `/dev/sda2`, ... |
 | SD / memory card / Thẻ nhớ | `/dev/mmcblk0`; `/dev/mmcblk0p1`, `/dev/mmcblk0p2`, ... |
 | NVMe SSD | `/dev/nvme0n1`; `/dev/nvme0n1p1`, `/dev/nvme0n1p2`, ... |
+
+### 4.1 Naming Order Rules / Quy tắc thứ tự đặt tên
+
+**sd\* (SATA / SCSI / SSD / USB)**
+
+$\color{RoyalBlue}{\textbf{Letters are assigned in the order the kernel detects the disks: a, b, c, ...}}$<br>
+$\color{RoyalBlue}{\textbf{The number after the letters is the partition number, starting from 1.}}$<br>
+$\color{#374151}{\footnotesize\text{Chữ cái được cấp theo thứ tự kernel phát hiện đĩa: a, b, c, ...}}$<br>
+$\color{#374151}{\footnotesize\text{Số đứng sau chữ cái là số thứ tự phân vùng, bắt đầu từ 1.}}$
+
+| Device / Thiết bị | Meaning / Ý nghĩa |
+|---|---|
+| `/dev/sda` | $\color{RoyalBlue}{\textbf{1st disk}}$ $\color{#374151}{\footnotesize\text{(đĩa thứ 1)}}$ |
+| `/dev/sdb` | $\color{RoyalBlue}{\textbf{2nd disk}}$ $\color{#374151}{\footnotesize\text{(đĩa thứ 2)}}$ |
+| `/dev/sdc` | $\color{RoyalBlue}{\textbf{3rd disk, e.g. a USB stick plugged in later}}$ $\color{#374151}{\footnotesize\text{(đĩa thứ 3, ví dụ USB cắm sau)}}$ |
+| `/dev/sdz` → `/dev/sdaa` | $\color{RoyalBlue}{\textbf{After z, naming continues with aa, ab, ...}}$ $\color{#374151}{\footnotesize\text{(sau z thì tiếp tục aa, ab, ...)}}$ |
+| `/dev/sda1` | $\color{RoyalBlue}{\textbf{1st partition of the 1st disk}}$ $\color{#374151}{\footnotesize\text{(phân vùng 1 của đĩa 1)}}$ |
+| `/dev/sdb2` | $\color{RoyalBlue}{\textbf{2nd partition of the 2nd disk}}$ $\color{#374151}{\footnotesize\text{(phân vùng 2 của đĩa 2)}}$ |
+
+$\color{RoyalBlue}{\textbf{Warning: the letter depends on detection order and can change after a reboot}}$<br>
+$\color{RoyalBlue}{\textbf{or when devices are added. Use UUID or LABEL in /etc/fstab for reliability.}}$<br>
+$\color{#374151}{\footnotesize\text{Lưu ý: chữ cái phụ thuộc thứ tự phát hiện, có thể đổi sau khi khởi động lại}}$<br>
+$\color{#374151}{\footnotesize\text{hoặc khi thêm thiết bị. Nên dùng UUID hoặc LABEL trong /etc/fstab cho ổn định.}}$
+
+**hd\* (legacy IDE)**
+
+$\color{RoyalBlue}{\textbf{Letters follow the IDE channel and master/slave position.}}$<br>
+$\color{#374151}{\footnotesize\text{Chữ cái theo kênh IDE và vị trí master/slave.}}$
+
+| Device / Thiết bị | Position / Vị trí |
+|---|---|
+| `/dev/hda` | Primary channel, master / Kênh 1, master |
+| `/dev/hdb` | Primary channel, slave / Kênh 1, slave |
+| `/dev/hdc` | Secondary channel, master / Kênh 2, master |
+| `/dev/hdd` | Secondary channel, slave / Kênh 2, slave |
+
+**fd\* (floppy)**
+
+$\color{RoyalBlue}{\textbf{Numbered from 0: fd0 is the first drive, fd1 the second. No partitions.}}$<br>
+$\color{#374151}{\footnotesize\text{Đánh số từ 0: fd0 là ổ thứ nhất, fd1 là ổ thứ hai. Không có phân vùng.}}$
+
+**mmcblk\* (SD / memory card)**
+
+$\color{RoyalBlue}{\textbf{Format: mmcblk<card number>p<partition number>. Cards are numbered from 0.}}$<br>
+$\color{RoyalBlue}{\textbf{The letter p separates the disk number from the partition number.}}$<br>
+$\color{#374151}{\footnotesize\text{Định dạng: mmcblk<số thẻ>p<số phân vùng>. Thẻ đánh số từ 0.}}$<br>
+$\color{#374151}{\footnotesize\text{Chữ p ngăn cách số thẻ và số phân vùng.}}$
+
+| Device / Thiết bị | Meaning / Ý nghĩa |
+|---|---|
+| `/dev/mmcblk0` | $\color{RoyalBlue}{\textbf{1st card}}$ $\color{#374151}{\footnotesize\text{(thẻ thứ 1)}}$ |
+| `/dev/mmcblk0p1` | $\color{RoyalBlue}{\textbf{1st partition of the 1st card}}$ $\color{#374151}{\footnotesize\text{(phân vùng 1 của thẻ 1)}}$ |
+| `/dev/mmcblk1p2` | $\color{RoyalBlue}{\textbf{2nd partition of the 2nd card}}$ $\color{#374151}{\footnotesize\text{(phân vùng 2 của thẻ 2)}}$ |
+
+**nvme\* (NVMe SSD)**
+
+$\color{RoyalBlue}{\textbf{Format: nvme<controller>n<namespace>p<partition>.}}$<br>
+$\color{RoyalBlue}{\textbf{Controller and namespace start from 0 and 1 respectively; a typical SSD has one namespace.}}$<br>
+$\color{#374151}{\footnotesize\text{Định dạng: nvme<bộ điều khiển>n<namespace>p<phân vùng>.}}$<br>
+$\color{#374151}{\footnotesize\text{Controller bắt đầu từ 0, namespace bắt đầu từ 1; SSD thông thường chỉ có một namespace.}}$
+
+| Device / Thiết bị | Meaning / Ý nghĩa |
+|---|---|
+| `/dev/nvme0n1` | $\color{RoyalBlue}{\textbf{1st NVMe controller, namespace 1 (the whole disk)}}$ $\color{#374151}{\footnotesize\text{(controller 0, namespace 1, tức cả ổ đĩa)}}$ |
+| `/dev/nvme0n1p1` | $\color{RoyalBlue}{\textbf{Partition 1 of that disk}}$ $\color{#374151}{\footnotesize\text{(phân vùng 1 của ổ đó)}}$ |
+| `/dev/nvme1n1p3` | $\color{RoyalBlue}{\textbf{Partition 3 of the 2nd NVMe SSD}}$ $\color{#374151}{\footnotesize\text{(phân vùng 3 của ổ NVMe thứ 2)}}$ |
+
+### 4.2 Partition Numbering (MBR) / Đánh số phân vùng (MBR)
+
+$\color{RoyalBlue}{\textbf{MBR allows at most 4 primary partitions (numbers 1 to 4).}}$<br>
+$\color{RoyalBlue}{\textbf{To have more, one primary becomes an extended partition that holds logical partitions,}}$<br>
+$\color{RoyalBlue}{\textbf{which are always numbered from 5, even if fewer than 4 primaries exist.}}$<br>
+$\color{#374151}{\footnotesize\text{MBR cho phép tối đa 4 phân vùng primary (số 1 đến 4).}}$<br>
+$\color{#374151}{\footnotesize\text{Muốn nhiều hơn, một primary được dùng làm extended chứa các phân vùng logical,}}$<br>
+$\color{#374151}{\footnotesize\text{các logical luôn được đánh số từ 5, dù có ít hơn 4 primary.}}$
+
+```shell
+$ lsblk /dev/sda
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0  500G  0 disk
+├─sda1   8:1    0  100G  0 part /
+├─sda2   8:2    0   50G  0 part /home
+├─sda3   8:3    0    8G  0 part [SWAP]
+├─sda4   8:4    0    1K  0 part            <- extended / phân vùng mở rộng
+├─sda5   8:5    0  200G  0 part            <- logical
+└─sda6   8:6    0  142G  0 part            <- logical
+```
+
+$\color{RoyalBlue}{\textbf{GPT has no extended/logical concept: partitions are simply numbered 1, 2, 3, ...}}$<br>
+$\color{#374151}{\footnotesize\text{GPT không có khái niệm extended/logical: các phân vùng chỉ đánh số 1, 2, 3, ...}}$
+
+### 4.3 Examples / Ví dụ thực tế
+
+**Example 1 / Ví dụ 1:** $\color{RoyalBlue}{\textbf{A PC with one SATA disk and one NVMe SSD}}$ $\color{#374151}{\footnotesize\text{(Máy có 1 đĩa SATA và 1 SSD NVMe)}}$
+
+```shell
+$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           8:0    0 931.5G  0 disk
+└─sda1        8:1    0 931.5G  0 part /data
+nvme0n1     259:0    0 476.9G  0 disk
+├─nvme0n1p1 259:1    0   512M  0 part /boot/efi
+├─nvme0n1p2 259:2    0     1G  0 part /boot
+└─nvme0n1p3 259:3    0 475.4G  0 part /
+```
+
+**Example 2 / Ví dụ 2:** $\color{RoyalBlue}{\textbf{Plug in a USB stick and an SD card}}$ $\color{#374151}{\footnotesize\text{(Cắm thêm USB và thẻ SD)}}$
+
+```shell
+$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           8:0    0 931.5G  0 disk
+└─sda1        8:1    0 931.5G  0 part /data
+sdb           8:16   1  14.9G  0 disk          <- USB stick / USB (letter b: next free) 
+└─sdb1        8:17   1  14.9G  0 part /run/media/user/USB
+mmcblk0     179:0    0  29.7G  0 disk          <- SD card / thẻ SD
+└─mmcblk0p1 179:1    0  29.7G  0 part /run/media/user/SD
+nvme0n1     259:0    0 476.9G  0 disk
+└─nvme0n1p1 259:1    0 476.9G  0 part /
+```
+
+**Example 3 / Ví dụ 3:** $\color{RoyalBlue}{\textbf{A server with 3 SATA disks}}$ $\color{#374151}{\footnotesize\text{(Máy chủ có 3 đĩa SATA)}}$
+
+| Device / Thiết bị | Description / Mô tả |
+|---|---|
+| `/dev/sda`, `/dev/sda1`, `/dev/sda2` | OS disk, 2 partitions / Đĩa hệ điều hành, 2 phân vùng |
+| `/dev/sdb`, `/dev/sdb1` | Data disk 1 / Đĩa dữ liệu 1 |
+| `/dev/sdc`, `/dev/sdc1` | Data disk 2 / Đĩa dữ liệu 2 |
+
+**Example 4 / Ví dụ 4:** $\color{RoyalBlue}{\textbf{An old PC with 2 IDE disks and a floppy drive}}$ $\color{#374151}{\footnotesize\text{(Máy cũ có 2 đĩa IDE và 1 ổ mềm)}}$
+
+| Device / Thiết bị | Description / Mô tả |
+|---|---|
+| `/dev/hda`, `/dev/hda1`, `/dev/hda2` | Primary master disk / Đĩa kênh 1 master |
+| `/dev/hdc`, `/dev/hdc1` | Secondary master disk / Đĩa kênh 2 master |
+| `/dev/fd0` | Floppy drive / Ổ đĩa mềm |
+
+### 4.4 Quick Check Commands / Lệnh kiểm tra nhanh
+
+| Command | Purpose | Mục đích |
+|---|---|---|
+| `lsblk` | $\color{RoyalBlue}{\textbf{Tree of disks and partitions}}$ | $\color{#374151}{\footnotesize\text{Hiển thị cây đĩa và phân vùng}}$ |
+| `lsblk -f` | $\color{RoyalBlue}{\textbf{Add filesystem type, LABEL and UUID}}$ | $\color{#374151}{\footnotesize\text{Thêm loại hệ tệp, LABEL và UUID}}$ |
+| `blkid` | $\color{RoyalBlue}{\textbf{Show UUID/LABEL of block devices}}$ | $\color{#374151}{\footnotesize\text{Hiện UUID/LABEL của các block device}}$ |
+| `sudo fdisk -l` | $\color{RoyalBlue}{\textbf{List disks and partition tables}}$ | $\color{#374151}{\footnotesize\text{Liệt kê đĩa và bảng phân vùng}}$ |
+| `ls -l /dev/disk/by-uuid/` | $\color{RoyalBlue}{\textbf{Stable names that do not change}}$ | $\color{#374151}{\footnotesize\text{Tên ổn định, không đổi}}$ |
