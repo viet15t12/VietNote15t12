@@ -1,6 +1,6 @@
 # LPIC-1
 
-<p class="vn-lead">Ghi chú ôn thi LPIC-1 v5.0 (Exam 101 và 102), viết song ngữ EN/VI.</p>
+<p class="vn-lead">Ghi chú ôn thi LPIC-1 v5.0</p>
 
 !!! info "Cách học"
     Mỗi bài bám theo một mục trong *exam objectives*. Bấm **Dịch (VI)** để xem bản tiếng Việt.
