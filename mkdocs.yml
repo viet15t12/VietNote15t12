@@ -95,5 +95,6 @@ nav:
       - aws/index.md
   - PTIT:
       - ptit/index.md
+      - "vi xử Lí": ptit/vi_xu_ly/chapter_2_summary.md
   - "Ngân hàng đề thi": https://github.com/viet15t12/TurtleDeck_exam
   - "App luyện tập": https://github.com/viet15t12/TurtleDeck
