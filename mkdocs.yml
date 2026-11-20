@@ -57,8 +57,12 @@ extra_css:
 
 extra_javascript:
   - assets/bilingual.js
+  - assets/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - tables
   - attr_list
   - md_in_html
@@ -89,6 +93,7 @@ nav:
   - LPIC-1:
       - lpic/index.md
       - "101.1 Hardware settings": lpic/101-1-hardware.md
+      - "101.2 Boot the system": lpic/101-2-boot-the-system.md
   - CCNA:
       - ccna/index.md
   - AWS:

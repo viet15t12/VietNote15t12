@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 584" width="520" height="584" role="img" aria-label="System initialization">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#64748b"/></marker></defs>
+<rect width="520" height="584" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="260.0" y="34" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">System initialization</text>
+<text x="260.0" y="55" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#475569">Quá trình khởi tạo hệ thống</text>
+<rect x="40" y="80" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="109.0" r="13" fill="#7c3aed"/><text x="64" y="114.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">1</text>
+<text x="284.0" y="106.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">Bootloader loads kernel into RAM</text>
+<text x="284.0" y="126.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">Bootloader nạp kernel vào RAM</text>
+<line x1="260.0" y1="138" x2="260.0" y2="161" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="164" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="193.0" r="13" fill="#7c3aed"/><text x="64" y="198.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">2</text>
+<text x="284.0" y="190.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">Kernel takes over CPU, detects hardware</text>
+<text x="284.0" y="210.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">Kernel nắm CPU, nhận diện phần cứng</text>
+<line x1="260.0" y1="222" x2="260.0" y2="245" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="248" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="277.0" r="13" fill="#7c3aed"/><text x="64" y="282.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">3</text>
+<text x="284.0" y="274.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">Open initramfs (temporary root)</text>
+<text x="284.0" y="294.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">Mở initramfs (root tạm thời)</text>
+<line x1="260.0" y1="306" x2="260.0" y2="329" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="332" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="361.0" r="13" fill="#7c3aed"/><text x="64" y="366.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">4</text>
+<text x="284.0" y="358.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">Mount real root and /etc/fstab</text>
+<text x="284.0" y="378.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">Gắn root thật và các mục trong /etc/fstab</text>
+<line x1="260.0" y1="390" x2="260.0" y2="413" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="416" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="445.0" r="13" fill="#7c3aed"/><text x="64" y="450.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">5</text>
+<text x="284.0" y="442.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">Run init: SysVinit / systemd / Upstart</text>
+<text x="284.0" y="462.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">Chạy init: SysVinit / systemd / Upstart</text>
+<line x1="260.0" y1="474" x2="260.0" y2="497" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="500" width="440" height="58" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+<circle cx="64" cy="529.0" r="13" fill="#7c3aed"/><text x="64" y="534.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">6</text>
+<text x="284.0" y="526.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="15" font-weight="600" fill="#1e293b">initramfs removed from RAM</text>
+<text x="284.0" y="546.0" text-anchor="middle" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="13" fill="#475569">initramfs được giải phóng khỏi RAM</text>
+</svg>
