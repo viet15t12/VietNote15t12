@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<circle cx="35.0" cy="65.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<text x="37.2" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="end" dominant-baseline="central" font-weight="bold">K</text>
+<text x="37.2" y="45.9" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">1</text>
+<line x1="115.0" y1="65.0" x2="225.0" y2="65.0" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="115.0" cy="65.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="225.0" cy="65.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<text x="172.2" y="42.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="end" dominant-baseline="central" font-weight="bold">K</text>
+<text x="172.2" y="45.9" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">2</text>
+<line x1="405.0" y1="35.0" x2="365.0" y2="105.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="405.0" y1="35.0" x2="495.0" y2="55.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="365.0" y1="105.0" x2="495.0" y2="55.0" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="405.0" cy="35.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="365.0" cy="105.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="495.0" cy="55.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<text x="427.2" y="65.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="end" dominant-baseline="central" font-weight="bold">K</text>
+<text x="427.2" y="68.9" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">3</text>
+<line x1="390.0" y1="155.0" x2="495.0" y2="165.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="390.0" y1="155.0" x2="465.0" y2="275.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="390.0" y1="155.0" x2="365.0" y2="235.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="495.0" y1="165.0" x2="465.0" y2="275.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="495.0" y1="165.0" x2="365.0" y2="235.0" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="465.0" y1="275.0" x2="365.0" y2="235.0" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="390.0" cy="155.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="495.0" cy="165.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="465.0" cy="275.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="365.0" cy="235.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<text x="430.2" y="210.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="end" dominant-baseline="central" font-weight="bold">K</text>
+<text x="430.2" y="213.9" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">4</text>
+<line x1="145.0" y1="143.0" x2="223.0" y2="199.7" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="145.0" y1="143.0" x2="193.2" y2="291.3" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="145.0" y1="143.0" x2="96.8" y2="291.3" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="145.0" y1="143.0" x2="67.0" y2="199.7" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="223.0" y1="199.7" x2="193.2" y2="291.3" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="223.0" y1="199.7" x2="96.8" y2="291.3" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="223.0" y1="199.7" x2="67.0" y2="199.7" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="193.2" y1="291.3" x2="96.8" y2="291.3" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="193.2" y1="291.3" x2="67.0" y2="199.7" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="96.8" y1="291.3" x2="67.0" y2="199.7" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="145.0" cy="143.0" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="223.0" cy="199.7" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="193.2" cy="291.3" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="96.8" cy="291.3" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<circle cx="67.0" cy="199.7" r="5.0" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+<text x="147.2" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="end" dominant-baseline="central" font-weight="bold" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" fill="#ffffff">K</text>
+<text x="147.2" y="228.9" font-family="Arial, Helvetica, sans-serif" font-size="10" text-anchor="start" dominant-baseline="central" font-weight="bold" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" fill="#ffffff">5</text>
+<text x="147.2" y="225.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="end" dominant-baseline="central" font-weight="bold">K</text>
+<text x="147.2" y="228.9" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">5</text>
+</svg>

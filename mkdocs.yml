@@ -104,5 +104,10 @@ nav:
           - "Công thức & Bài tập ôn tập": ptit/ktmt/tong_hop_cong_thuc_va_dang_bai_ktmt.md
       - Vi xử lý:
           - "Chương 2: Cấu trúc bộ vi xử lý": ptit/vi_xu_ly/chapter_2_summary.md
+      - Toán rời rạc:
+          - ptit/toan_roi_lac/index.md
+          - "Chương 1: Tổ hợp, Thuật toán & Logic": ptit/toan_roi_lac/chuong-1-to-hop-va-logic.md
+          - "Chương 2: Khái niệm & Biểu diễn đồ thị": ptit/toan_roi_lac/chuong-2-do-thi-va-bieu-dien.md
+          - "Chương 3: Đồ thị Euler & Hamilton": ptit/toan_roi_lac/chuong-3-do-thi-euler-va-hamilton.md
   - "Ngân hàng đề thi": https://github.com/viet15t12/TurtleDeck_exam
   - "App luyện tập": https://github.com/viet15t12/TurtleDeck

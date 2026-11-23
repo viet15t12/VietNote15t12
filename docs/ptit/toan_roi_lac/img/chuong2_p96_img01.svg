@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" width="560" height="520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="67.0" y="18.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Ke[]</text>
+<text x="35.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="53.0" y="30.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="30.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="35.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="53.0" y="56.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="56.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="35.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="53.0" y="82.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="82.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="35.0" y="118.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="53.0" y="108.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="108.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="35.0" y="144.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="53.0" y="134.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="134.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="35.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="53.0" y="160.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="67.0" y="160.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="85.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Khởi tạo mảng Ke[]</text>
+<text x="212.0" y="18.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Ke[]</text>
+<text x="180.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="198.0" y="30.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="30.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="219.0" y1="40.0" x2="241.2" y2="40.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="244.0,40.0 239.4,41.9 239.4,38.1" fill="#2563eb"/>
+<rect x="244.0" y="30.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="255.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="266.0" y="30.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="180.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="198.0" y="56.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="56.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="219.0" y1="66.0" x2="241.2" y2="66.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="244.0,66.0 239.4,67.9 239.4,64.1" fill="#2563eb"/>
+<rect x="244.0" y="56.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="255.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="266.0" y="56.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="180.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="198.0" y="82.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="82.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="180.0" y="118.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="198.0" y="108.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="108.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="180.0" y="144.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="198.0" y="134.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="134.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="180.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="198.0" y="160.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="212.0" y="160.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Xét cạnh (0, 1)</text>
+<text x="377.0" y="18.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Ke[]</text>
+<text x="345.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="363.0" y="30.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="30.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="384.0" y1="40.0" x2="406.2" y2="40.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="409.0,40.0 404.4,41.9 404.4,38.1" fill="#2563eb"/>
+<rect x="409.0" y="30.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="420.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="431.0" y="30.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="436.0" y1="40.0" x2="458.2" y2="40.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="461.0,40.0 456.4,41.9 456.4,38.1" fill="#2563eb"/>
+<rect x="461.0" y="30.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="472.0" y="40.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="483.0" y="30.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="363.0" y="56.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="56.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="384.0" y1="66.0" x2="406.2" y2="66.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="409.0,66.0 404.4,67.9 404.4,64.1" fill="#2563eb"/>
+<rect x="409.0" y="56.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="420.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="431.0" y="56.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="363.0" y="82.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="82.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="384.0" y1="92.0" x2="406.2" y2="92.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="409.0,92.0 404.4,93.9 404.4,90.1" fill="#2563eb"/>
+<rect x="409.0" y="82.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="420.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="431.0" y="82.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="118.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="363.0" y="108.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="108.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="144.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="363.0" y="134.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="134.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="363.0" y="160.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="377.0" y="160.0" width="14.0" height="20.0" fill="#94a3b8" stroke="#475569" stroke-width="1.2"/>
+<text x="395.0" y="200.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Xét cạnh (0, 2)</text>
+<line x1="455.0" y1="110.0" x2="499.8" y2="110.0" stroke="#2563eb" stroke-width="2"/>
+<polygon points="505.0,110.0 496.4,113.6 496.4,106.4" fill="#2563eb"/>
+<line x1="75.0" y1="355.0" x2="119.8" y2="355.0" stroke="#2563eb" stroke-width="2"/>
+<polygon points="125.0,355.0 116.4,358.6 116.4,351.4" fill="#2563eb"/>
+<text x="187.0" y="263.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Ke[]</text>
+<text x="155.0" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="173.0" y="275.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="275.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="285.0" x2="216.2" y2="285.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,285.0 214.4,286.9 214.4,283.1" fill="#2563eb"/>
+<rect x="219.0" y="275.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="241.0" y="275.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="285.0" x2="268.2" y2="285.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,285.0 266.4,286.9 266.4,283.1" fill="#2563eb"/>
+<rect x="271.0" y="275.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="293.0" y="275.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="298.0" y1="285.0" x2="320.2" y2="285.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="323.0,285.0 318.4,286.9 318.4,283.1" fill="#2563eb"/>
+<rect x="323.0" y="275.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="334.0" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="345.0" y="275.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="311.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="173.0" y="301.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="301.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="311.0" x2="216.2" y2="311.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,311.0 214.4,312.9 214.4,309.1" fill="#2563eb"/>
+<rect x="219.0" y="301.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="311.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="241.0" y="301.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="311.0" x2="268.2" y2="311.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,311.0 266.4,312.9 266.4,309.1" fill="#2563eb"/>
+<rect x="271.0" y="301.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="311.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="293.0" y="301.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="298.0" y1="311.0" x2="320.2" y2="311.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="323.0,311.0 318.4,312.9 318.4,309.1" fill="#2563eb"/>
+<rect x="323.0" y="301.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="334.0" y="311.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="345.0" y="301.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="173.0" y="327.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="327.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="337.0" x2="216.2" y2="337.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,337.0 214.4,338.9 214.4,335.1" fill="#2563eb"/>
+<rect x="219.0" y="327.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="241.0" y="327.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="337.0" x2="268.2" y2="337.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,337.0 266.4,338.9 266.4,335.1" fill="#2563eb"/>
+<rect x="271.0" y="327.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="293.0" y="327.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="298.0" y1="337.0" x2="320.2" y2="337.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="323.0,337.0 318.4,338.9 318.4,335.1" fill="#2563eb"/>
+<rect x="323.0" y="327.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="334.0" y="337.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="345.0" y="327.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="173.0" y="353.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="353.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="363.0" x2="216.2" y2="363.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,363.0 214.4,364.9 214.4,361.1" fill="#2563eb"/>
+<rect x="219.0" y="353.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="241.0" y="353.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="363.0" x2="268.2" y2="363.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,363.0 266.4,364.9 266.4,361.1" fill="#2563eb"/>
+<rect x="271.0" y="353.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="293.0" y="353.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="298.0" y1="363.0" x2="320.2" y2="363.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="323.0,363.0 318.4,364.9 318.4,361.1" fill="#2563eb"/>
+<rect x="323.0" y="353.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="334.0" y="363.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="345.0" y="353.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="389.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="173.0" y="379.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="379.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="389.0" x2="216.2" y2="389.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,389.0 214.4,390.9 214.4,387.1" fill="#2563eb"/>
+<rect x="219.0" y="379.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="389.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="241.0" y="379.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="389.0" x2="268.2" y2="389.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,389.0 266.4,390.9 266.4,387.1" fill="#2563eb"/>
+<rect x="271.0" y="379.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="389.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="293.0" y="379.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="298.0" y1="389.0" x2="320.2" y2="389.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="323.0,389.0 318.4,390.9 318.4,387.1" fill="#2563eb"/>
+<rect x="323.0" y="379.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="334.0" y="389.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="345.0" y="379.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="350.0" y1="389.0" x2="372.2" y2="389.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="375.0,389.0 370.4,390.9 370.4,387.1" fill="#2563eb"/>
+<rect x="375.0" y="379.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="386.0" y="389.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">0</text>
+<rect x="397.0" y="379.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="415.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">5</text>
+<rect x="173.0" y="405.0" width="14.0" height="20.0" fill="#e2e8f0" stroke="#475569" stroke-width="1.2"/>
+<rect x="187.0" y="405.0" width="14.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="194.0" y1="415.0" x2="216.2" y2="415.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="219.0,415.0 214.4,416.9 214.4,413.1" fill="#2563eb"/>
+<rect x="219.0" y="405.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="230.0" y="415.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="241.0" y="405.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<line x1="246.0" y1="415.0" x2="268.2" y2="415.0" stroke="#2563eb" stroke-width="1.4"/>
+<polygon points="271.0,415.0 266.4,416.9 266.4,413.1" fill="#2563eb"/>
+<rect x="271.0" y="405.0" width="22.0" height="20.0" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="282.0" y="415.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="293.0" y="405.0" width="12.0" height="20.0" fill="#cbd5e1" stroke="#475569" stroke-width="1.2"/>
+<text x="205.0" y="445.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Danh sách cuối cùng được tạo</text>
+</svg>

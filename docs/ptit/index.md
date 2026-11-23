@@ -22,6 +22,14 @@
 
     [:octicons-arrow-right-24: Xem tài liệu](vi_xu_ly/chapter_2_summary.md)
 
+-   :material-graph-outline:{ .lg .middle } **Toán rời rạc**
+
+    ---
+
+    Các nguyên lý đếm, giải tích tổ hợp, độ phức tạp thuật toán, logic mệnh đề – vị từ, khái niệm – biểu diễn đồ thị, đồ thị Euler và Hamilton.
+
+    [:octicons-arrow-right-24: Xem tài liệu](toan_roi_lac/index.md)
+
 </div>
 
 !!! tip "Luyện đề thi"

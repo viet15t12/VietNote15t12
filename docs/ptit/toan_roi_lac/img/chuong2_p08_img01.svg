@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="25.0" y="20.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="85.0" y="41.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Đồ thị</text>
+<line x1="85.0" y1="62.0" x2="85.0" y2="280.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="85.0" y1="115.0" x2="220.0" y2="115.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="85.0" y1="280.0" x2="220.0" y2="280.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="220.0" y="94.0" width="210.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="325.0" y="115.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Đồ thị vô hướng</text>
+<rect x="220.0" y="259.0" width="210.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="325.0" y="280.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Đồ thị có hướng</text>
+<line x1="325.0" y1="136.0" x2="325.0" y2="158.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="130.0" y1="158.0" x2="540.0" y2="158.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="130.0" y1="158.0" x2="130.0" y2="180.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="70.0" y="180.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="130.0" y="201.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Đơn đồ thị</text>
+<line x1="325.0" y1="158.0" x2="325.0" y2="180.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="265.0" y="180.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="325.0" y="201.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Đa đồ thị</text>
+<line x1="540.0" y1="158.0" x2="540.0" y2="180.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="480.0" y="180.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="540.0" y="201.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Giả đồ thị</text>
+<line x1="325.0" y1="301.0" x2="325.0" y2="325.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="225.0" y1="325.0" x2="425.0" y2="325.0" stroke="#1e3a8a" stroke-width="2"/>
+<line x1="225.0" y1="325.0" x2="225.0" y2="348.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="165.0" y="348.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="225.0" y="369.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Đơn đồ thị</text>
+<line x1="425.0" y1="325.0" x2="425.0" y2="348.0" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="365.0" y="348.0" width="120.0" height="42.0" fill="#bbf7d0" stroke="#22c55e" stroke-width="1.8" rx="6"/>
+<text x="425.0" y="369.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central">Đa đồ thị</text>
+</svg>

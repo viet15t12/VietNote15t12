@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="340.0" y="22.0" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Big-O Complexity Chart</text>
+<rect x="235.0" y="40.0" width="46.0" height="18.0" fill="#fca5a5" stroke="#64748b" stroke-width="1" rx="3"/>
+<text x="258.0" y="49.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Horrible</text>
+<rect x="283.0" y="40.0" width="46.0" height="18.0" fill="#fdba74" stroke="#64748b" stroke-width="1" rx="3"/>
+<text x="306.0" y="49.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Bad</text>
+<rect x="331.0" y="40.0" width="46.0" height="18.0" fill="#fde047" stroke="#64748b" stroke-width="1" rx="3"/>
+<text x="354.0" y="49.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Fair</text>
+<rect x="379.0" y="40.0" width="46.0" height="18.0" fill="#d9f99d" stroke="#64748b" stroke-width="1" rx="3"/>
+<text x="402.0" y="49.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Good</text>
+<rect x="427.0" y="40.0" width="46.0" height="18.0" fill="#86efac" stroke="#64748b" stroke-width="1" rx="3"/>
+<text x="450.0" y="49.0" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Excellent</text>
+<polygon points="65.0,380.0 65.0,70.0 635.0,70.0 635.0,380.0" fill="#fca5a5" stroke="none" stroke-width="2"/>
+<polygon points="65.0,380.0 245.0,70.0 635.0,70.0 635.0,380.0" fill="#fdba74" stroke="none" stroke-width="2"/>
+<polygon points="65.0,380.0 635.0,100.0 635.0,380.0" fill="#fde047" stroke="none" stroke-width="2"/>
+<polygon points="65.0,380.0 635.0,310.0 635.0,380.0" fill="#d9f99d" stroke="none" stroke-width="2"/>
+<polygon points="65.0,380.0 635.0,348.0 635.0,380.0" fill="#86efac" stroke="none" stroke-width="2"/>
+<rect x="65.0" y="70.0" width="570.0" height="310.0" fill="none" stroke="#1e293b" stroke-width="2"/>
+<path d="M 65 380 Q 83 260 97 70" fill="none" stroke="#7f1d1d" stroke-width="2.5"/>
+<text x="107.0" y="86.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">O(n!)</text>
+<path d="M 65 380 Q 113 250 145 70" fill="none" stroke="#991b1b" stroke-width="2.5"/>
+<text x="151.0" y="86.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">O(2^n)</text>
+<path d="M 65 380 Q 175 280 240 70" fill="none" stroke="#b45309" stroke-width="2.5"/>
+<text x="245.0" y="86.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="start" dominant-baseline="central" font-weight="bold">O(n^2)</text>
+<path d="M 65 380 Q 345 240 635 102" fill="none" stroke="#a16207" stroke-width="2.5"/>
+<text x="563.0" y="148.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">O(n log n)</text>
+<line x1="65.0" y1="380.0" x2="635.0" y2="310.0" stroke="#4d7c0f" stroke-width="2.5"/>
+<text x="605.0" y="308.0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">O(n)</text>
+<path d="M 65 380 Q 215 352 635 350" fill="none" stroke="#15803d" stroke-width="2.5"/>
+<line x1="65.0" y1="372.0" x2="635.0" y2="372.0" stroke="#166534" stroke-width="2"/>
+<text x="580.0" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">O(log n), O(1)</text>
+<text x="25" y="225.0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90 25 225.0)">Operations</text>
+<text x="350.0" y="402.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#0f172a" text-anchor="middle" dominant-baseline="central" font-weight="bold">Elements</text>
+</svg>

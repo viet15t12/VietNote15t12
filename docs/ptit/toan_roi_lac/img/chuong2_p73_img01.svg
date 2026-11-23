@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440" width="620" height="440">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="25.0" y="15.0" width="225.0" height="40.0" fill="#0284c7" stroke="#0369a1" stroke-width="1.8" rx="6"/>
+<text x="137.5" y="35.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-weight="bold">Các dạng đồ thị đặc biệt</text>
+<line x1="135.0" y1="55.0" x2="135.0" y2="410.0" stroke="#0369a1" stroke-width="2"/>
+<line x1="135.0" y1="93.0" x2="210.0" y2="93.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="210.0" y="75.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="347.5" y="93.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị đầy đủ (Kn)</text>
+<line x1="135.0" y1="146.0" x2="210.0" y2="146.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="210.0" y="128.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="347.5" y="146.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị vòng (Cn)</text>
+<line x1="135.0" y1="199.0" x2="310.0" y2="199.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="310.0" y="181.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="447.5" y="199.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị bánh xe (Wn)</text>
+<line x1="135.0" y1="252.0" x2="210.0" y2="252.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="210.0" y="234.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="347.5" y="252.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị siêu khối (Qn)</text>
+<line x1="135.0" y1="305.0" x2="210.0" y2="305.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="210.0" y="287.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="347.5" y="305.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị hai phía</text>
+<line x1="135.0" y1="358.0" x2="310.0" y2="358.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="310.0" y="340.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="447.5" y="358.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị hai phía đầy đủ (Km,n)</text>
+<line x1="135.0" y1="411.0" x2="210.0" y2="411.0" stroke="#0369a1" stroke-width="2"/>
+<rect x="210.0" y="393.0" width="275.0" height="36.0" fill="#0ea5e9" stroke="#0284c7" stroke-width="1.8" rx="6"/>
+<text x="347.5" y="411.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Đồ thị phẳng</text>
+</svg>
